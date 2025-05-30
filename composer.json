@@ -1,15 +1,11 @@
 {
-    "name": "api-tarefas/railway",
-    "description": "API REST de Tarefas para Railway",
+    "name": "minha-api/railway",
+    "description": "API REST PHP para Railway",
     "type": "project",
     "require": {
-        "php": ">=8.2",
-        "ext-pdo": "*",
-        "ext-pdo_mysql": "*"
+        "php": "^8.1"
     },
-    "config": {
-        "platform": {
-            "php": "8.2"
-        }
+    "scripts": {
+        "start": "php -S 0.0.0.0:$PORT index.php"
     }
 }
